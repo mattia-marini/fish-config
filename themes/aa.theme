@@ -1,0 +1,41 @@
+# name: 'aa'
+# preferred_background: EFF1F5
+
+fish_color_operator 04a5e5
+fish_color_option 1e66f5
+fish_color_param dd7878
+fish_color_quote 40a02b
+fish_color_redirection ea76cb
+fish_color_search_match ea76cb --background=bcc0cc --bold
+fish_color_selection  --background=bcc0cc --bold
+fish_color_status d20f39 --bold --italics
+fish_color_user fe640b
+fish_color_valid_path 4c4f69 --background=eff1f5 --underline
+fish_pager_color_completion 7c7f93
+fish_pager_color_selected_completion 4c4f69
+fish_pager_color_secondary_completion 7c7f93
+fish_pager_color_background
+fish_pager_color_selected_background  --background=bcc0cc
+fish_pager_color_secondary_background
+fish_pager_color_description 7c7f93
+fish_pager_color_selected_description 4c4f69
+fish_pager_color_secondary_description 7c7f93
+fish_pager_color_prefix 7c7f93  --underline --bold
+fish_pager_color_selected_prefix 4c4f69  --underline --bold
+fish_pager_color_secondary_prefix 7c7f93  --underline --bold
+fish_pager_color_progress 4c4f69
+fish_color_autosuggestion 9ca0b0
+fish_color_cancel d20f39
+fish_color_command 8839ef
+fish_color_comment 9ca0b0
+fish_color_cwd 1e66f5
+fish_color_cwd_root 1e66f5
+fish_color_end 14161b
+fish_color_error d20f39
+fish_color_escape ea76cb
+fish_color_history_current ea76cb --background=bcc0cc --bold
+fish_color_host dd7878
+fish_color_host_remote dd7878
+fish_color_keyword ea76cb
+fish_color_match bcc0cc --background=ea76cb
+fish_color_normal 4c4f69

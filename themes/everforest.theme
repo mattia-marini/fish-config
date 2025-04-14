@@ -1,0 +1,41 @@
+# name: 'everforest'
+# preferred_background: 2D353B
+
+fish_color_error e67e80
+fish_color_end d3c6aa
+fish_color_cwd_root a7c080
+fish_color_cwd a7c080
+fish_color_comment 859289 --italics
+fish_color_command e67e80
+fish_color_cancel e67e80
+fish_color_autosuggestion 859289 --italics
+fish_pager_color_secondary_description d3c6aa
+fish_pager_color_selected_description 2d353b
+fish_pager_color_description d3c6aa
+fish_pager_color_secondary_background
+fish_pager_color_selected_background  --background=a7c080
+fish_pager_color_background
+fish_pager_color_secondary_completion d3c6aa
+fish_pager_color_selected_completion 2d353b
+fish_pager_color_completion d3c6aa
+fish_color_valid_path  --underline
+fish_color_user 83c092
+fish_color_status e67e80 --bold --underline
+fish_color_selection  --background=543a48
+fish_color_search_match 2d353b --background=a7c080
+fish_color_redirection dbbc7f
+fish_color_quote a7c080
+fish_color_param 7fbbb3
+fish_color_option dbbc7f
+fish_color_operator e69875
+fish_color_normal d3c6aa
+fish_color_match 2d353b --background=e67e80
+fish_color_keyword e67e80
+fish_color_host_remote 7fbbb3
+fish_color_host 7fbbb3
+fish_color_history_current 2d353b --background=a7c080
+fish_color_escape dbbc7f
+fish_pager_color_prefix d3c6aa  --underline --bold
+fish_pager_color_selected_prefix 2d353b  --underline --bold
+fish_pager_color_secondary_prefix d3c6aa  --underline --bold
+fish_pager_color_progress 859289

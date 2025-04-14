@@ -1,0 +1,41 @@
+# name: 'catppuccin_frappe'
+# preferred_background: 303446
+
+fish_color_host_remote eebebe
+fish_color_host eebebe
+fish_color_history_current f4b8e4 --background=51576d --bold
+fish_color_escape f4b8e4
+fish_color_error e78284
+fish_color_end e0e2ea
+fish_color_cwd_root 8caaee
+fish_color_cwd 8caaee
+fish_color_comment 737994
+fish_color_command ca9ee6
+fish_color_cancel e78284
+fish_color_autosuggestion 737994
+fish_pager_color_progress c6d0f5
+fish_pager_color_secondary_prefix 949cbb  --underline --bold
+fish_pager_color_selected_prefix c6d0f5  --underline --bold
+fish_pager_color_prefix 949cbb  --underline --bold
+fish_pager_color_secondary_description 949cbb
+fish_pager_color_selected_description c6d0f5
+fish_pager_color_description 949cbb
+fish_pager_color_secondary_background
+fish_pager_color_selected_background  --background=51576d
+fish_pager_color_background
+fish_pager_color_secondary_completion 949cbb
+fish_pager_color_selected_completion c6d0f5
+fish_pager_color_completion 949cbb
+fish_color_valid_path c6d0f5 --background=303446 --underline
+fish_color_user ef9f76
+fish_color_status e78284 --bold --italics
+fish_color_selection  --background=51576d --bold
+fish_color_search_match f4b8e4 --background=51576d --bold
+fish_color_redirection f4b8e4
+fish_color_quote a6d189
+fish_color_param eebebe
+fish_color_option 8caaee
+fish_color_operator 99d1db
+fish_color_normal c6d0f5
+fish_color_match 51576d --background=f4b8e4
+fish_color_keyword f4b8e4

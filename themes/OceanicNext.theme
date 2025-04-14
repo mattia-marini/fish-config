@@ -1,0 +1,41 @@
+# name: 'OceanicNext'
+# preferred_background: 1B2B34
+
+fish_color_option c594c5
+fish_color_param 62b3b2
+fish_color_quote 99c794
+fish_color_redirection 62b3b2
+fish_color_search_match 65737e --background=fac863
+fish_color_selection  --background=4f5b66
+fish_color_status ec5f67 --background=1b2b34
+fish_color_user f99157
+fish_color_valid_path ec5f67 --underline
+fish_pager_color_completion a7adba
+fish_pager_color_selected_completion d8dee9
+fish_pager_color_secondary_completion a7adba
+fish_pager_color_background
+fish_pager_color_selected_background  --background=6699cc
+fish_pager_color_secondary_background
+fish_pager_color_description a7adba
+fish_pager_color_selected_description d8dee9
+fish_pager_color_secondary_description a7adba
+fish_pager_color_prefix a7adba  --underline --bold
+fish_pager_color_selected_prefix d8dee9  --underline --bold
+fish_pager_color_secondary_prefix a7adba  --underline --bold
+fish_pager_color_progress 343d46
+fish_color_autosuggestion 65737e
+fish_color_cancel eef1f8 --background=590008
+fish_color_command ec5f67 --bold
+fish_color_comment 65737e
+fish_color_cwd 6699cc
+fish_color_cwd_root 6699cc
+fish_color_end ab7967
+fish_color_error eef1f8 --background=590008
+fish_color_escape 62b3b2
+fish_color_history_current 65737e --background=fac863
+fish_color_host 62b3b2
+fish_color_host_remote 62b3b2
+fish_color_keyword c594c5
+fish_color_match 343d46 --background=f99157
+fish_color_normal d8dee9
+fish_color_operator f99157

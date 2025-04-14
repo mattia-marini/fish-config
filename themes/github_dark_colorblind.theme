@@ -1,0 +1,41 @@
+# name: 'github_dark_colorblind'
+# preferred_background: 0D1117
+
+fish_color_operator 79c0ff
+fish_color_option fdac54
+fish_color_param c9d1d9
+fish_color_quote a5d6ff
+fish_color_redirection c9d1d9
+fish_color_search_match  --background=8d7230
+fish_color_selection  --background=2f547f
+fish_color_status d47616
+fish_color_user 79c0ff
+fish_color_valid_path  --underline
+fish_pager_color_completion c9d1d9
+fish_pager_color_selected_completion
+fish_pager_color_secondary_completion c9d1d9
+fish_pager_color_background
+fish_pager_color_selected_background  --background=1c3d6a
+fish_pager_color_secondary_background
+fish_pager_color_description c9d1d9
+fish_pager_color_selected_description
+fish_pager_color_secondary_description c9d1d9
+fish_pager_color_prefix c9d1d9  --underline --bold
+fish_pager_color_selected_prefix   --underline --bold
+fish_pager_color_secondary_prefix c9d1d9  --underline --bold
+fish_pager_color_progress 04070d
+fish_color_autosuggestion 8b949e
+fish_color_cancel d47616
+fish_color_command ec8e2c
+fish_color_comment 8b949e
+fish_color_cwd d2a8ff
+fish_color_cwd_root d2a8ff
+fish_color_end
+fish_color_error d47616
+fish_color_escape c9d1d9
+fish_color_history_current  --background=8d7230
+fish_color_host c9d1d9
+fish_color_host_remote c9d1d9
+fish_color_keyword ec8e2c
+fish_color_match 161b22 --background=ec8e2c
+fish_color_normal c9d1d9

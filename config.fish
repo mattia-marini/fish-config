@@ -1,5 +1,9 @@
-# Set Homebrew environment (Apple Silicon)
-/opt/homebrew/bin/brew shellenv | source
+# System specific config
+set config_dir (status dirname)
+if test -f $config_dir/system.fish
+    source $config_dir/system.fish
+end
+
 
 # Setup LuaRocks path
 eval (luarocks path)
@@ -61,3 +65,5 @@ end
 set -g fish_key_bindings my_f
 
 fish_config theme choose everforest
+
+

@@ -9,9 +9,9 @@ end
 eval (luarocks path)
 
 # Starship prompt
-# starship init fish | source
-# eval (starship completions fish)
-# enable_transience
+starship init fish | source
+eval (starship completions fish)
+enable_transience
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
@@ -26,6 +26,7 @@ set -gx PATH /Applications/kitty.app/Contents/MacOS $PATH
 set -gx PATH /Applications/CMake.app/Contents/bin $PATH
 set -gx PATH $HOME/.emacs.d/bin $PATH
 set -gx PATH /Applications/Emacs.app/Contents/MacOS $PATH
+set -gx PATH $PATH $HOME/.cargo/bin
 
 
 # Aliases
@@ -63,6 +64,8 @@ function my_f
   fish_vi_key_bindings default
 end
 set -g fish_key_bindings my_f
+
+set fish_greeting ""
 
 fish_config theme choose everforest
 

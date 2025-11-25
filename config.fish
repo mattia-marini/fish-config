@@ -4,7 +4,6 @@ if test -f $config_dir/system.fish
     source $config_dir/system.fish
 end
 
-
 # Setup LuaRocks path
 eval (luarocks path)
 
@@ -27,6 +26,7 @@ set -gx PATH /Applications/CMake.app/Contents/bin $PATH
 set -gx PATH $HOME/.emacs.d/bin $PATH
 set -gx PATH /Applications/Emacs.app/Contents/MacOS $PATH
 set -gx PATH $PATH $HOME/.cargo/bin
+set -gx PATH $PATH /Users/mattia/.local/bin
 
 
 # Aliases

@@ -70,5 +70,43 @@ function mvn-new
 
     mv -f "$project_dir/pom_new.xml" "$project_dir/pom.xml"
 
+    echo (set_color cyan)"Adding .gitignore ..."(set_color normal)
+
+    set gitignore_content "# Maven build output
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp"
+
+    echo $gitignore_content > $project_dir/.gitignore
+
     echo (set_color  green)"Done! Project created in "(set_color --bold green)"./$project_dir"(set_color normal)
 end

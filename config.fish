@@ -12,29 +12,34 @@ starship init fish | source
 eval (starship completions fish)
 enable_transience
 
+#mise
+mise activate fish | source
+# eval "$(flox activate)"
+flox activate -d /Users/mattia/ --print-script | source # activate current env or default
+
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
 # Set up PATH
-set -gx PATH /opt/homebrew/Cellar/java/19.0.2/bin $PATH
-set -gx PATH /opt/homebrew/Cellar/java17/17.0.6/bin $PATH
-set -gx PATH /Users/mattia/Library/Mobile\ Documents/com~apple~CloudDocs/Workspaces/utility_scripts $PATH
-set -gx PATH $PATH /opt/homebrew/Cellar/lua-language-server/3.16.17
-set -gx PATH /Applications/kitty.app/Contents/MacOS $PATH
-set -gx PATH /Applications/CMake.app/Contents/bin $PATH
-set -gx PATH $HOME/.emacs.d/bin $PATH
-set -gx PATH /Applications/Emacs.app/Contents/MacOS $PATH
-set -gx PATH $PATH $HOME/.cargo/bin
-set -gx PATH $PATH /Users/mattia/.local/bin
+# set -gx PATH /Users/mattia/Library/Mobile\ Documents/com~apple~CloudDocs/Workspaces/utility_scripts $PATH
+# set -gx PATH $PATH /opt/homebrew/Cellar/lua-language-server/3.16.17
+# set -gx PATH /Applications/kitty.app/Contents/MacOS $PATH
+# set -gx PATH /Applications/CMake.app/Contents/bin $PATH
+# set -gx PATH $HOME/.emacs.d/bin $PATH
+# set -gx PATH /Applications/Emacs.app/Contents/MacOS $PATH
+# set -gx PATH $PATH $HOME/.cargo/bin
+# set -gx PATH $PATH /Users/mattia/.local/bin
+# fish_add_path /opt/homebrew/opt/llvm/bin
 
 
 # Aliases
 alias listvimdir='printf "PLUGGED:/Users/mattia/.local/share/nvim/plugged\nRUNTIME: /opt/homebrew/Cellar/neovim/0.8.0/share/nvim\nCONFIG:/Users/mattia/.config/nvim\n"'
 alias Cws='cd /Users/mattia/Documents/c++_workspace'
 alias cws='cd /Users/mattia/Documents/c_workspace'
-alias tree='exa --tree --level=2'
-alias ls='exa --icons'
+alias tree='eza --tree --level=2'
+alias ls='eza --icons'
 alias conf='cd ~/.config'
 alias cpp='cd /Users/mattia/Library/Mobile\ Documents/com~apple~CloudDocs/Workspaces/cpp_workspace/Università'
 alias javaw='cd /Users/mattia/Library/Mobile\ Documents/com~apple~CloudDocs/Workspaces/java_workspace'
@@ -70,3 +75,7 @@ set fish_greeting ""
 fish_config theme choose everforest
 
 
+
+# Added by OrbStack: command-line tools and integration
+# This won't be added again if you remove it.
+source ~/.orbstack/shell/init2.fish 2>/dev/null || :
